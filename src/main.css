@@ -1,0 +1,66 @@
+body {
+  background-color: #1f9787;
+  font-family: 'Arial', sans-serif;
+}
+
+/* شكل اللوجو */
+.logo-img {
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+/* navbar */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* الروابط */
+.nav-link {
+  font-weight: bold;
+  color: rgb(44, 226, 187);
+}
+.nav-link:hover {
+  color: #00e1ff;
+}
+
+/* اسم الموقع */
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero-section {
+  padding: 100px 0;
+  background-color: #06463b;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #25bda8;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #666666;
+}
+
+.hero-image {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.carousel-item img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.custom-btn {
+  background-color: #238073;
+  color: white;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #2dcab8;}
